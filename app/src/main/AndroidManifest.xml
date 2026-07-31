@@ -19,9 +19,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
+        android:roundIcon="@drawable/logo"
         android:label="&#8203;"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         
@@ -34,7 +34,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Register our background server service -->
+        <!-- Background server service -->
         <service
             android:name=".FileServerService"
             android:exported="false"
